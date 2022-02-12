@@ -67,23 +67,45 @@
     transition: 1s;
 }
 
+    /*NANE*/
 .name {
     position: relative;
-    margin: 4em 4.5em;
+    margin: 4em 0 1em 4.5em;
     width: 40%;
 }
 .Vorname, .Nachname {
     z-index: 10;
     color: #d7d7d7;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 5em;
+    font-size: 6em;
     margin: -0.250em 0;
-
 }
 
 .Nachname {
     font-weight: 400;
 }
+
+.hand {
+    color:transparent;
+    text-shadow: 0 0 0 #adadad;
+}
+
+section {
+    position: relative;
+    margin: 1em 4.5em;
+    width: 65%;
+}
+
+section p {
+    z-index: 10;
+    color: #d7d7d7;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+    margin: 0.1em 0.1em;
+    font-weight: 300;
+}
+
+
 
 
 
