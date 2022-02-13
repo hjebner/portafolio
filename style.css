@@ -41,7 +41,15 @@
     /*LOGO*/
 .logo {
     height: 45px;
+    transition: 0.5s ease-out;
 }
+
+.logo:hover{
+    height: 50px;
+    filter: brightness(0) saturate(100%) invert(87%) sepia(7%) saturate(2456%) hue-rotate(324deg) brightness(93%) contrast(94%);
+    transition: 0.5s ease-out;
+}
+
 
     /*Nav Bar*/
 .navbar {
@@ -160,14 +168,14 @@ section p {
 .trio-group img {
     width: 300px;
     height: 90px;
-    margin: -0.5em 0 0 3em;
+    margin: -0.5em 0 0 2.5em;
     transition: 0.7s ease-out;
 }
 
 .trio-group img:hover {
     width: 310px;
     height: 100px;
-    margin: -0.5em 0 0 3em;
+    margin: -0.5em 0 0 2.5em;
     filter: brightness(0) saturate(100%) invert(87%) sepia(7%) saturate(2456%) hue-rotate(324deg) brightness(93%) contrast(94%);
     transition: 0.5s ease-out;
 }
